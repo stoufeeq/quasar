@@ -32,7 +32,7 @@ unittest.main(exit=False)
 def non_repeating(str1):
     temp_dict = dict()
     for i in str1:
-        temp_dict.update({i:str1.count(i)})
+        temp_dict.update({i: str1.count(i)})
     for item in str1:
         if item in temp_dict and temp_dict[item] == 1:
             return item
