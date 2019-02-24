@@ -1,7 +1,9 @@
-#first Non repeating:
+# first Non repeating:
+
 import unittest
 
-def nonRepeatingString(str1):
+
+def non_repeating_string(str1):
     temp_dict = dict()
     temp_list = list()
     for i in str1:
@@ -17,20 +19,15 @@ def nonRepeatingString(str1):
 
 
 class TestStringMethods(unittest.TestCase):
-    
-    
-    def testNonRepeatingString(self):
-        self.assertEqual("a", nonRepeatingString("bbbaddddd"))
+
+    def test_non_repeating_string(self):
+        self.assertEqual("a", non_repeating_string("bbbaddddd"))
 
 
 unittest.main(exit=False)
 
 
-
-
-#better approach:
-
-import unittest
+# better approach:
 
 def non_repeating(str1):
     temp_dict = dict()
@@ -40,9 +37,9 @@ def non_repeating(str1):
         if item in temp_dict and temp_dict[item] == 1:
             return item
 
-class TestStringMethods(unittest.TestCase):
-    
-    
+
+class TestStringMethod(unittest.TestCase):
+
     def test_non_repeating_string(self):
         self.assertEqual("a", non_repeating("bbbaddddd"))
 
