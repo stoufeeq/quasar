@@ -1,6 +1,6 @@
 #least occurring character in the string:
 
-str1 = "hddbbssffppqqaaa"
+str1 = "hhddbbsffppqqaaa"
 
 temp_dict = dict()
 temp_list = list()
@@ -22,4 +22,3 @@ for item in str1:
     if item in temp_list:
         print(item, temp_dict[item])
         break
-        

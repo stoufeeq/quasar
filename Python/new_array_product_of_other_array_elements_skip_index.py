@@ -32,7 +32,8 @@ def array_element_product_without_division(arr):
     return new_arr
 
 
+print("with division")
 print(array_element_product([1, 2, 3, 4, 5]))
 
-
+print("\nwithout division")
 print(array_element_product_without_division([1, 2, 3, 4, 5]))
