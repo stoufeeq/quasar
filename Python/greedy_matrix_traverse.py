@@ -1,6 +1,7 @@
 import numpy as np
 
-class array_traverse():
+
+class arrayTraverse():
     def __init__(self):
         self.val = 0
         self.path = [i_a[0][0]]
@@ -32,6 +33,6 @@ class array_traverse():
 
 
 i_a = np.array([[1,2,3,1,5],[4,9,6,4,3],[7,8,9,8,10],[3,4,5,1,9],[3,4,5,6,1]])
-tr = array_traverse()
+tr = arrayTraverse()
 tr.traverse_arr(i_a, 0, 0)
 print(tr.path)
