@@ -1,4 +1,4 @@
-#least occurring character in the string:
+# least occurring character in the string:
 
 str1 = "hhddbbsffppqqaaa"
 
