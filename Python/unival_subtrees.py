@@ -67,4 +67,4 @@ n8.left = n9
 Node.unival = 0
 
 
-print("Number of unival trees: ", unival_subtree_count(root))
+print("Number of unival subtrees: ", unival_subtree_count(root))
