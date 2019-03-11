@@ -14,9 +14,7 @@
 
 my_arr = [10, 5, 2, 7, 8, 7]
 k = 3
-temp = []
 
 for i in range(len(my_arr) - (k - 1)):
-    t = my_arr[i:k+i]
-    print(max(t))
-    del t
+    print(max(my_arr[i:k+i]))
+
