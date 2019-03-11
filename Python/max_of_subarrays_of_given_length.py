@@ -20,5 +20,3 @@ for i in range(len(my_arr) - (k - 1)):
     t = my_arr[i:k+i]
     print(max(t))
     del t
-
-
