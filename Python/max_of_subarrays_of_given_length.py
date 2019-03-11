@@ -17,4 +17,3 @@ k = 3
 
 for i in range(len(my_arr) - (k - 1)):
     print(max(my_arr[i:k+i]))
-
